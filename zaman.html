@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/zaman.css" />
+  </head>
+  <body>
+    <header>
+      <!-----NAVBAR BASLADI-->
+
+      <div class="navbar">
+        <div class="menu">
+          <nav>
+            <ul>
+              <li class="items"><a href="index.html">SetInterval</a></li>
+              <li class="items"><a href="kukla.html">Animasiya </a></li>
+              <li class="items"><a href="horse.html">Hereket</a></li>
+              <li class="items">
+                <a href="butterfly.html">Duz xett uzre</a>
+              </li>
+              <li class="items"><a href="bird.html">Asagiya dogru </a></li>
+              <li class="items"><a href="riyazi.html">Hesablama</a></li>
+              <li class="items"><a href="zaman.html">Zaman</a></li>
+              <li class="items"><a href="while.html">While</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <!-----NAVBAR BITDI-->
+    </header>
+    <main>
+      <section>
+        <div id="saat"></div>
+        <div class="zaman">
+          <h1>Zaman aralığı ilə əməliyyatlar</h1>
+          <br />
+          <p>
+            JavaScript ən maraqlı əməliyyatlardan biri də zaman aralığı ilə
+            əməliyyatlardır. Bunun üçün Javascriptdə xüsusi funksiyalar
+            mövcuddur. Məsələn, bir saniyədən bir səhifədə saatı yazmaq
+            istəyiriksə, o zaman, bu funksiyalardan istifadə etməliyik.
+            <br />
+            Öyrənməli olduğumuz əsas funksiya setInterval() funksiyasıdır. Bu
+            funksiya əməliyyatı zaman aralığı ilə daima yerinə yetirmək üçün
+            istifadə olunur. Aşağıdakı nümunəyə baxaq:
+            <br />
+            İlk olaraq burada bir funksiya yaratmışıq. Funksiyamızın adı
+            zamanlamadır və sadəcə saniyəni səhifədə çap edir. Sonra isə biz
+            burada setInterval(zamanlama,1000); yazmışıq. Gördüyümüz kimi,
+            funksiya iki parametr almışdır. Birinci parametr yaratdığımız
+            zamanlama funksiyasının adıdır. İkinci parametr isə 1000-dir. Bu o
+            deməkdir ki, 1000 millisaniyədən bir, yəni, 1 saniyədən bir
+            zamanlama adlı funksiyamız işə düşəcəkdir. Yəni hər 1 saniyədən bir
+            zamanlama adlı funksiyamız çağırılır və işə düşür.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <script src="./app/zaman.js"></script>
+  </body>
+</html>

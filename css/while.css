@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: black;
+  color: aliceblue;
+  padding-left: 60px;
+}
+/*navbar started*/
+.navbar {
+  position: absolute;
+
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 50px;
+  background-color: rgb(90, 88, 88);
+  border-radius: 30px;
+  margin-top: 50px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  row-gap: 30px;
+}
+
+.navbar .menu li {
+  display: inline-block;
+  margin: 0px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.navbar .menu li a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar .menu li a:hover {
+  color: rgb(229, 228, 231);
+  letter-spacing: 2px;
+}
+
+ul {
+  margin-top: 0;
+}
+/*navbar finished*/
+section {
+  padding: 30px;
+}
+.while {
+  margin-top: 90px;
+}
+.while h1 {
+  text-align: center;
+}

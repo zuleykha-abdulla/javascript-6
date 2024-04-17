@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: black;
+  color: aliceblue;
+  padding-left: 60px;
+}
+/*navbar started*/
+.navbar {
+  position: absolute;
+
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 50px;
+  background-color: rgb(90, 88, 88);
+  border-radius: 30px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  row-gap: 30px;
+}
+
+.navbar .menu li {
+  display: inline-block;
+  margin: 0px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.navbar .menu li a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar .menu li a:hover {
+  color: rgb(229, 228, 231);
+  letter-spacing: 2px;
+}
+
+ul {
+  margin-top: 0;
+}
+/*navbar finished*/
+#element {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: blue;
+  border: 20px solid rgb(13, 13, 233);
+  margin-top: 100px;
+}
+#element2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgb(219, 23, 187);
+  border: 20px solid rgb(233, 13, 167);
+  margin-top: 50px;
+}
+button {
+  display: flex;
+  margin: 0 auto;
+  background-color: rgb(19, 3, 34);
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid rgb(85, 18, 218);
+  margin-top: 50px;
+  color: aliceblue;
+}
+/*qutuya aid style*/
+
+#qutu {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(7, 7, 7);
+  border: 10px solid rgb(38, 66, 223);
+  margin-top: 50px;
+}
+#box {
+  width: 100px;
+  height: 100px;
+  border-radius: 30%;
+  background-color: rgb(7, 7, 7);
+  border: 10px solid rgb(223, 38, 208);
+  margin-top: 50px;
+}
+
+@keyframes animasiya {
+  from {
+    margin-left: 0px;
+  }
+  to {
+    margin-left: 500px;
+  }
+}
+/* box start ve back emri verek*/
+@keyframes animasiya {
+  from {
+    margin-left: 0px;
+  }
+  to {
+    margin-left: 500px;
+  }
+}
+@keyframes animasiya2 {
+  from {
+    margin-left: 150px;
+  }
+  to {
+    margin-left: 0px;
+  }
+}
